@@ -1,0 +1,123 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.logo{
+    margin: 40px 0px;
+    width: 350px;
+}
+
+.select{
+    cursor: pointer;
+    background-color: #FEF9EF !important;
+    border: .7px solid !important;
+    border-color: #FFCB77 !important;
+    color: black;
+}
+
+.data-card{
+    padding: 17px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 7.3913px;    
+}
+
+.data-card-text{
+    margin: 10px 0;
+    font-size: 14px;
+}
+.data-card-text > span{
+    font-weight: 550;
+}
+
+
+.info-text{
+    margin: 30px 0;
+    font-size: 18px;
+    color:#828282 ;
+    font-weight: 400;
+}
+
+.info-text-small{
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.info-text-small > span{
+    font-weight: 500;
+}
+
+.data-div{
+    margin-bottom: 50px;
+}
+
+.button{
+    margin: 20px 0;
+    width: 200px !important;
+    background-color: #227C9D !important;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+.loc-btn{
+    float: right;
+    color: white;
+    background-color: #002093 !important;    
+}
+
+.info-block{
+    margin: 50px 0;
+}
+
+.ref-heading{
+    color: #828282;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.ref-heading > span{
+    color: #227C9D;
+}
+
+.remdesivir-info{
+    max-width: 70%;
+    color: #4f4f4f;
+    margin: 20px 0;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.ref-links{
+    color: #002093;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+li{
+    margin: 2px 0;
+}
+
+.footer{
+    margin: 20px 0;
+    border-radius: 10px;
+    padding: 20px;
+    height: auto;
+    background-color: #FAF9F9;
+}
+.footer-line{
+    font-size: 18px;
+    color: #227C9D;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.attribute{
+    color: #828282;
+    margin-bottom: 20px;
+}
