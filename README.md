@@ -2,8 +2,7 @@
 
 A Site that provides info of all Remdesivir Distributors in every state in India
 
-![Remdesivir Sellers Screenshot]('https://github.com/shashankbhat2/Remdesivir-Sellers/blob/master/Siteshot.png?raw=true')
-
+Live At: 
 
 # Built with:
 
