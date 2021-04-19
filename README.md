@@ -2,7 +2,7 @@
 
 A Site that provides info of all Remdesivir Distributors in every state in India
 
-![live]('https://remdesivir-sellers.vercel.app/')
+[Live Site]('https://remdesivir-sellers.vercel.app/')
 
 # Built with:
 
