@@ -121,3 +121,11 @@ li{
     color: #828282;
     margin-bottom: 20px;
 }
+.sub-attribute{
+    color: #828282;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.sub-attribute > a{
+    font-weight: 500;
+}

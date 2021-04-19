@@ -11,4 +11,7 @@ A Site that provides info of all Remdesivir Distributors in every state in India
 - Chakra UI
 - Sheets Data
 
+Thanks To Koushik Joshi
+for providing the data.
+
 # Open for contributions
