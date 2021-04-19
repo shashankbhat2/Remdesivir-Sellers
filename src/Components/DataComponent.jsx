@@ -7,11 +7,10 @@ import { Select, SimpleGrid, Box, Button  } from "@chakra-ui/react"
 const DataComponent = () => {
     const [data, setData] = useState(distributorData)
     const [selectedState, setSelectedState] = useState("All States")
-    const [limit, setLimit] = useState(18)
+    const [limit, setLimit] = useState(8)
     const [count, setCount] = useState(data.length)
 
     const handleChange = (e) => {
-        setLimit(18)
         setSelectedState(e.target.value)
     }
 
@@ -34,6 +33,7 @@ const DataComponent = () => {
                     <option value={state} key={i}>{state}</option>
                 ))}
             </Select>
+            <p className="info-text-small">State: <span>{selectedState}</span></p>
             <p className="info-text-small">found <span>{count}</span> results</p>
             <SimpleGrid columns={[1, null, 3]} marginTop="20px" spacing="5">
                     {
