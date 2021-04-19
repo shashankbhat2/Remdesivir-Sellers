@@ -9,5 +9,3 @@ Live At:
 - React.js 
 - Chakra UI
 - Sheets Data
-
-### Open for contributions
