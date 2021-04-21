@@ -47,7 +47,7 @@ const DataComponent = () => {
                     }
             </SimpleGrid>
             {
-                       count <= limit ? undefined : <Button className="button" onClick={() => setLimit(limit + 18)}>Load More</Button>
+                       count <= limit ? undefined : <Button className="button" onClick={() => setLimit(limit + 8)}>Load More</Button>
             }
         </div>
     )
