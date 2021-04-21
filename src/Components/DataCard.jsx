@@ -7,7 +7,7 @@ const DataCard = ({distributor}) => {
                 <p className="data-card-text"> Name: <span>{distributor.distributorName}</span></p>
                 <p className="data-card-text"> State: <span>{distributor.state}</span></p>
                 <p className="data-card-text"> Email: <span>{distributor.emailAddress || 'No Email Available'}</span></p>
-                <p className="data-card-text"> Address: <span>{distributor.address || 'No Email Available'}</span></p>
+                <p className="data-card-text"> Address: <span>{distributor.address}</span></p>
                 <a href={`http://maps.google.com/?q=${distributor.address}`} rel="noreferrer"  target="_blank">
                     <Button className="loc-btn">
                         Location
