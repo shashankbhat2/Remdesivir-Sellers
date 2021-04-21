@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import ReactGoogleSheets from 'react-google-sheets';
 import distributorData from '../data.json'
 import {States} from '../constants'
 import DataCard from './DataCard';
@@ -53,4 +52,4 @@ const DataComponent = () => {
     )
 }
 
-export default ReactGoogleSheets.connect(DataComponent);
+export default DataComponent;
