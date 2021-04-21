@@ -1,10 +1,5 @@
 import React from 'react'
 import {Box, Button} from '@chakra-ui/react'
-// "state": "Andra Pradesh",
-// "distributorName": "BALAJI MEDICAL CORPORATION",
-// "address": "9-10-51A, D.S BUILDINGSNAAZ CENTREGUNTUR 522 001,GUNTUR,522001",
-// "emailAddress": "bmcguntur1@gmail.com",
-// "telephone": 9849828896
 
 const DataCard = ({distributor}) => {
     return(
